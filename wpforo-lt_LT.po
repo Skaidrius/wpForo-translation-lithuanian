@@ -6,7 +6,7 @@ msgstr ""
 "%100<10 || n%100>=20) ? 1 : 2);\n"
 "Project-Id-Version: Forum - wpForo\n"
 "POT-Creation-Date: 2018-03-07 17:21+0200\n"
-"PO-Revision-Date: 2018-03-08 14:13+0200\n"
+"PO-Revision-Date: 2018-03-09 14:42+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,7 +85,7 @@ msgstr "Valdymo skydelis"
 #: wpf-admin/options.php:15 wpf-includes/wpf-hooks.php:1776
 #: wpf-includes/wpf-phrases.php:123
 msgid "Forums"
-msgstr "Diskusijų Klubas"
+msgstr "Forumai"
 
 #: wpf-admin/admin.php:27 wpf-includes/wpf-hooks.php:22
 #: wpf-includes/wpf-hooks.php:1792
@@ -156,8 +156,8 @@ msgid ""
 "We're here to help you and improve wpForo as much as possible."
 msgstr ""
 "Dėkojame, kad naudojatės wpForo! wpForo yra profesionali WordPress diskusijų "
-"knyga ir vienintelė forumo programinė įranga su multi-which comes with Multi-"
-"maketų paruoštukų sistema.\n"
+"lenta ir vienintelė forumo programinė įranga su multi-which comes with Multi-"
+"maketų šablonų sistema.\n"
 "                                    \"Išplėstinis\", \"Supaprastintas\" ir "
 "\"Klausimų &amp Atsakymų\" maketai tenkina beveik visus diskusijų poreikius. "
 "Jūs galite naudoti wpForo mažoms ir ypač didelėms bendruomenėms. \n"
@@ -639,7 +639,7 @@ msgstr "Pritaikytas URL"
 #: wpf-admin/tools-tabs/antispam.php:299 wpf-admin/tools-tabs/cleanup.php:49
 #: wpf-admin/tools-tabs/misc.php:37 wpf-includes/wpf-phrases.php:344
 msgid "Update Options"
-msgstr "Atnaujinimo Nuostatos"
+msgstr "Atnaujinti Nuostatas"
 
 #: wpf-admin/options-tabs/emails.php:12
 msgid "FROM Name"
@@ -4080,11 +4080,11 @@ msgstr "nepatinka"
 
 #: wpf-includes/wpf-phrases.php:591
 msgid "sticky"
-msgstr "lipnus"
+msgstr "lipni"
 
 #: wpf-includes/wpf-phrases.php:592
 msgid "unsticky"
-msgstr "nelipnus"
+msgstr "nelipni"
 
 #: wpf-includes/wpf-phrases.php:593
 msgid "close"
@@ -4100,7 +4100,7 @@ msgstr "Temos Ikonos"
 
 #: wpf-includes/wpf-phrases.php:596
 msgid "New"
-msgstr "Naujas"
+msgstr "Nauja"
 
 #: wpf-includes/wpf-phrases.php:597
 msgid "Replied"
