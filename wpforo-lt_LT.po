@@ -6,11 +6,6 @@ msgstr ""
 "%100<10 || n%100>=20) ? 1 : 2);\n"
 "Project-Id-Version: Forum - wpForo\n"
 "POT-Creation-Date: 2018-03-07 17:21+0200\n"
-<<<<<<< HEAD
-"PO-Revision-Date: 2018-03-23 10:22+0200\n"
-=======
-"PO-Revision-Date: 2018-03-09 14:42+0200\n"
->>>>>>> 4d7d7f24e25f33443aa9ce5f135f9e23c61b79ee
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,8 +17,9 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Last-Translator: \n"
+"Last-Translator: Skaidrius Prascienis <email@skaidrius.com>\n"
 "Language: lt\n"
+"PO-Revision-Date: \n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -159,25 +155,7 @@ msgid ""
 "list of issues and requirements you'd like us to fix and add in near future. "
 "We're here to help you and improve wpForo as much as possible."
 msgstr ""
-"Dėkojame, kad naudojatės wpForo! wpForo yra profesionali WordPress diskusijų "
-<<<<<<< HEAD
-"knyga ir vienintelė forumo programinė įranga, su iš karto parengta paruoštų "
-"maketų sistema.\n"
-=======
-"lenta ir vienintelė forumo programinė įranga su multi-which comes with Multi-"
-"maketų šablonų sistema.\n"
->>>>>>> 4d7d7f24e25f33443aa9ce5f135f9e23c61b79ee
-"                                    \"Išplėstinis\", \"Supaprastintas\" ir "
-"\"Klausimai ir Atsakymai\" maketai tenkina beveik visus diskusijų poreikius. "
-"Jūs galite naudoti wpForo mažoms ir ypač didelėms bendruomenėms. \n"
-"                                    <br />Suradę klaidų ar veikimo problemų, "
-"prašome atverti priežiūros temą įskiepio svetainėje arba mūsų priežiūros "
-"forume gVectors.com. Jeigu jums patinka wpForo, prašome palikti savo gerą "
-"atsiliepimą. Mums tikrai trūksta Jūsų gerų atsiliepimų. \n"
-"                                    Jeigu jums nepatiko wpForo prašome "
-"nurodyti, kas neveikia, arba pageidavimus, kurių norėtumėte kad mes "
-"įdiegtume artimiausioje ateityje. Esame čia, kad Jums padėti ir kiek galima "
-"geriau patobulinti wpForo."
+"Dėkojame, kad naudojatės wpForo! wpForo yra profesionali WordPress diskusijų."
 
 #: wpf-admin/dashboard.php:57 wpf-includes/wpf-phrases.php:130
 msgid "General Information"
@@ -583,13 +561,12 @@ msgstr "App Secret"
 
 #: wpf-admin/options-tabs/api.php:32
 msgid "Facebook Login"
-msgstr "Facebook Prisijungimas"
+msgstr "Facebook Prieiga"
 
 #: wpf-admin/options-tabs/api.php:33
 msgid "Adds Facebook Login button on Registration and Login pages."
 msgstr ""
-"Prideda Facebook Prisijungimo mygtuką į Registracijos ir Prisijungimo "
-"puslapius."
+"Prideda Facebook Prieigos mygtuką į Registracijos ir Prisijungimo puslapius."
 
 #: wpf-admin/options-tabs/api.php:37 wpf-admin/options-tabs/api.php:49
 #: wpf-admin/options-tabs/api.php:60 wpf-admin/options-tabs/api.php:71
@@ -3802,7 +3779,7 @@ msgstr "Jau balsavote dėl šio Įrašo"
 
 #: wpf-includes/wpf-phrases.php:518
 msgid "You have been successfully subscribed"
-msgstr "Sėkmingai užsiprenumeratove"
+msgstr "Prenumerata sėkminga"
 
 #: wpf-includes/wpf-phrases.php:519
 msgid "You have been successfully unsubscribed"
@@ -3966,7 +3943,7 @@ msgstr "Priekis - Gali matyti nario vartotojo tel. numerį"
 
 #: wpf-includes/wpf-phrases.php:560
 msgid "Front - Can write PM"
-msgstr "Priekis - Gali rašyti AŽ"
+msgstr "Gali matyti forumą"
 
 #: wpf-includes/wpf-phrases.php:561
 msgid "Can view forum"
@@ -4481,7 +4458,7 @@ msgstr "Patinka Forumo įrašas"
 
 #: wpf-includes/wpf-phrases.php:730
 msgid "Target Topic URL"
-msgstr "Pažymėtos Temos URL"
+msgstr "Tikslinės Temos URL"
 
 #: wpf-includes/wpf-phrases.php:731
 msgid "Merge Topic"
@@ -4496,7 +4473,7 @@ msgid ""
 "Please copy the target topic URL from browser address bar and paste in the "
 "field below."
 msgstr ""
-"Prašome nukopijuoti pažymėtos temos URL naršyklės adresų lauke ir įklijuoti "
+"Prašome nukopijuoti tikslinės temos URL naršyklės adresų lauke ir įklijuoti "
 "į žemiau esantį laukelį."
 
 #: wpf-includes/wpf-phrases.php:734
@@ -4552,7 +4529,7 @@ msgstr "Naujas Temų Forumas"
 
 #: wpf-includes/wpf-phrases.php:742
 msgid "Select Posts to Split"
-msgstr "Pažymėkite Įrašus, kuriuos Atskirsite"
+msgstr "Pažymėti įrašus, kurios išskirti"
 
 #: wpf-includes/wpf-phrases.php:743
 msgid ""
@@ -4568,7 +4545,7 @@ msgstr "Apjungti"
 
 #: wpf-includes/wpf-phrases.php:745
 msgid "Split"
-msgstr "Atskirti"
+msgstr "Išskirti"
 
 #: wpf-includes/wpf-phrases.php:746
 msgid "Move Reply"
@@ -4612,7 +4589,7 @@ msgstr "\"Klausimai ir Atsakymai\" Maketas - Naujausių temų skaičius"
 
 #: wpf-themes/classic/functions.php:85
 msgid "Q&A Layout - Recent topic length"
-msgstr "Išplėstinis Maketas - Naujausios temos ilgis"
+msgstr "Klausimai ir Atsakymai Maketas - Naujausios temos ilgis"
 
 #: wpf-themes/classic/functions.php:107
 msgid "Extended Layout - Recent posts"
