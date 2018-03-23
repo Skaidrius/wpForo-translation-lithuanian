@@ -6,7 +6,7 @@ msgstr ""
 "%100<10 || n%100>=20) ? 1 : 2);\n"
 "Project-Id-Version: Forum - wpForo\n"
 "POT-Creation-Date: 2018-03-07 17:21+0200\n"
-"PO-Revision-Date: 2018-03-08 14:13+0200\n"
+"PO-Revision-Date: 2018-03-23 10:22+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -156,19 +156,19 @@ msgid ""
 "We're here to help you and improve wpForo as much as possible."
 msgstr ""
 "Dėkojame, kad naudojatės wpForo! wpForo yra profesionali WordPress diskusijų "
-"knyga ir vienintelė forumo programinė įranga su multi-which comes with Multi-"
-"maketų paruoštukų sistema.\n"
+"knyga ir vienintelė forumo programinė įranga, su iš karto parengta paruoštų "
+"maketų sistema.\n"
 "                                    \"Išplėstinis\", \"Supaprastintas\" ir "
-"\"Klausimų &amp Atsakymų\" maketai tenkina beveik visus diskusijų poreikius. "
+"\"Klausimai ir Atsakymai\" maketai tenkina beveik visus diskusijų poreikius. "
 "Jūs galite naudoti wpForo mažoms ir ypač didelėms bendruomenėms. \n"
 "                                    <br />Suradę klaidų ar veikimo problemų, "
-"prašome atverti priežiūros temą įskiepio svetainėje arba mūsų m9sū "
-"priežiūros forume gVectors.com. Jeigu jums patinka wpForo, prašome palikti "
-"savo gerą atsiliepimą. Mums tikrai trūksta Jūsų gerų atsiliepimų. \n"
+"prašome atverti priežiūros temą įskiepio svetainėje arba mūsų priežiūros "
+"forume gVectors.com. Jeigu jums patinka wpForo, prašome palikti savo gerą "
+"atsiliepimą. Mums tikrai trūksta Jūsų gerų atsiliepimų. \n"
 "                                    Jeigu jums nepatiko wpForo prašome "
-"nurodyti, kas neveikia arba pageidavimus, kurių norėtumėte kad mes įdiegtume "
-"artimiausioje ateityje. Esame čia, kad Jums padėti ir kiek galima geriau "
-"tobulinti wpForo."
+"nurodyti, kas neveikia, arba pageidavimus, kurių norėtumėte kad mes "
+"įdiegtume artimiausioje ateityje. Esame čia, kad Jums padėti ir kiek galima "
+"geriau patobulinti wpForo."
 
 #: wpf-admin/dashboard.php:57 wpf-includes/wpf-phrases.php:130
 msgid "General Information"
@@ -303,7 +303,7 @@ msgstr "Forumo Metaduomenys"
 
 #: wpf-admin/forum.php:21 wpf-includes/wpf-phrases.php:273
 msgid "Screen Layout"
-msgstr "Ekrano Šablonas"
+msgstr "Ekrano Maketas"
 
 #: wpf-admin/forum.php:22 wpf-includes/wpf-phrases.php:209
 msgid "Number of Columns"
@@ -338,8 +338,8 @@ msgid ""
 "If a category (blue panels) does not have forums (grey panels) it will not "
 "be displayed on front-end. Each category should contain at least one forum."
 msgstr ""
-"Jei kategorijos (melynos panelės) neturi forumų (pilkų panelių) ji nebus "
-"rodoma puslapyje. Kiekviena kategorija turi turėti mažiausiai vieną forumą."
+"Jei kategorijos (melynos panelės) neturi forumų (pilkų panelių), jos nebus "
+"rodomos puslapyje. Kiekviena kategorija turi turėti mažiausiai vieną forumą."
 
 #: wpf-admin/forum.php:58
 msgid ""
@@ -348,11 +348,11 @@ msgid ""
 "forums' layout depends on the top category (blue panels) layout. They cannot "
 "have a different layout."
 msgstr ""
-"Forumai gali būti rodomi su skirtingais šablonais (Išplėstinis, "
-"Supaprastintas, Klausimai&Atsakymai), tiesiog keiskite viršutines (mėlynos "
-"panelės) kategorijas ir nustatykite norimą šabloną. Vaikiškas forumo "
-"šablonas priklauso nuo viršutinės kategorijos (melynos panelės) šablono. Jie "
-"negali turėti skirtingų šablonų."
+"Forumai gali būti rodomi su skirtingais maketais (Išplėstinis, "
+"Supaprastintas, Klausimai ir Atsakymai), tiesiog keiskite aukštesnes "
+"(mėlynos panelės) kategorijas ir nustatykite norimą maketą. 'Vaikinis' "
+"forumo maketas priklauso nuo viršutinės kategorijos (melynos panelės) "
+"maketo. Jų maketai negali skirtis."
 
 #: wpf-admin/forum.php:74 wpf-includes/wpf-phrases.php:272
 msgid "Save forums order and hierarchy"
@@ -388,11 +388,11 @@ msgstr "Vartoti kaip Kategoriją"
 
 #: wpf-admin/forum.php:142 wpf-includes/wpf-phrases.php:52
 msgid "Category Layout"
-msgstr "Kategorijos Šablonas"
+msgstr "Kategorijos Maketas"
 
 #: wpf-admin/forum.php:150 wpf-includes/wpf-phrases.php:202
 msgid "No layout found."
-msgstr "Nerasta šablonų."
+msgstr "Nerasta maketų."
 
 #: wpf-admin/forum.php:159 wpf-admin/forum.php:166
 #: wpf-includes/wpf-phrases.php:234
@@ -424,8 +424,8 @@ msgid ""
 "The \"slug\" is the URL-friendly version of the name. It is usually all "
 "lowercase and contains only letters, numbers, and hyphens."
 msgstr ""
-"\"Trumpinys\" - URL draugiška vardo versija. Dažiausiai pradedamas mažąja "
-"raide ir susideda iš raidžių, numerių ir brūkšnelių."
+"\"Trumpinys\" - URL draugiška vardo versija. Dažniausiai pradedamas mažąja "
+"raide, jį sudaro raidės, skaičiai ir brūkšneliai."
 
 #: wpf-admin/forum.php:200
 msgid "Forum Icon"
@@ -477,7 +477,7 @@ msgid ""
 "Layout will be inherited from this forum."
 msgstr ""
 "Visi subforumai, temos ir atsakymai bus prisegti prie pažymėto forumo. "
-"Šablonas bus paveldėtas iš šio forumo."
+"Maketas bus paveldėtas iš šio forumo."
 
 #: wpf-admin/moderation.php:10
 msgid "Topic and Post Moderation"
@@ -658,8 +658,8 @@ msgid ""
 "Comma separated email addresses of forum administrators to get forum "
 "notifications. For example post report messages."
 msgstr ""
-"Atskirkite kableliu forumo administratorių el. pašto adresus, kad gautumėte "
-"forumo pranešimus. Pavyzdžiui įrašo ataskaitos žinutes."
+"Kableliais atskirti forumo administratorių el. pašto adresai, kurie gaus "
+"forumo pranešimus (pvz., įrašo ataskaitos žinutes), ."
 
 #: wpf-admin/options-tabs/emails.php:28
 msgid "Notify Admins via email on new Topic"
@@ -670,8 +670,8 @@ msgid ""
 "Send Notification emails to all email addresses (comma separated ) of forum "
 "administrators when a new Topic is created."
 msgstr ""
-"Siųsti visiems forumo administratoriams el. pašto Pranešimus visais el. "
-"pašto adresais (atskirtais kableliais), kai sukurta nauja tema."
+"Visiems forumo administratoriams el. paštu (adresai, atskiriami kableliais) "
+"siųsti  pranešimus kai sukuriama nauja tema."
 
 #: wpf-admin/options-tabs/emails.php:33 wpf-admin/options-tabs/emails.php:45
 #: wpf-admin/options-tabs/emails.php:116 wpf-admin/options-tabs/features.php:66
@@ -706,8 +706,8 @@ msgid ""
 "Send Notification emails to all email addresses (comma separated ) of forum "
 "administrators when a new Reply is created."
 msgstr ""
-"Siųsti visiems forumo administratoriams el. pašto Pranešimus visais el. "
-"pašto adresais (atskirtais kableliais), kai sukurtas naujas atsakymas."
+"Visiems forumo administratoriams el. paštu (adresai, atskiriami kableliais) "
+"siųsti  pranešimus kai pateikiamas naujas atsakymas."
 
 #: wpf-admin/options-tabs/emails.php:52 wpf-includes/wpf-phrases.php:317
 msgid "Subscription Emails"
@@ -839,9 +839,10 @@ msgid ""
 "Dashboard > Settings > General admin page. If this option is enabled new "
 "users will always be able to register."
 msgstr ""
-"Ši opcija nėra sugretinta su Wordpress Valdymo skydelis > Nustatymai > "
-"Bendra administratoriaus puslapio opcija \"Kiekvienas gali registruotis\". "
-"Šią funkciją aktyvavus, nauji vartotojai visada turės galimybė registruotis."
+"Ši opcija nėra sugretinta su Wordpress Valdymo skydelis > Nuostatos > "
+"Pagrindinės administratoriaus puslapio opcija \"Kiekvienas gali registruotis"
+"\". Aktyvavus šią funkciją, nauji vartotojai visada turės galimybė "
+"registruotis."
 
 #: wpf-admin/options-tabs/features.php:21
 msgid "Enable User Registration email confirmation"
@@ -970,8 +971,8 @@ msgid ""
 "You can manage WordPress date and time format in WordPress Settings > "
 "General admin page."
 msgstr ""
-"Jūs galite valdyti WordPress datos ir laiko formatą Wordpress Nustatymai > "
-"Pagrindiniai administratoriaus puslapyje."
+"Jūs galite valdyti WordPress datos ir laiko formatą Wordpress Nuostatos > "
+"Pagrindinės administratoriaus puslapyje."
 
 #: wpf-admin/options-tabs/features.php:44 wpf-includes/wpf-phrases.php:613
 msgid "Enable Subscription Confirmation"
@@ -991,7 +992,7 @@ msgid ""
 "This option adds topic subscription checkbox next to new topic and post "
 "submit button."
 msgstr ""
-"Ši opcija prideda temos prenumeratos patvirtinimo checkbox'ą šalia naujos "
+"Ši opcija prideda temos prenumeratos patvirtinimo 'checkbox'ą; šalia naujos "
 "temos ir skelbti įrašą mygtuko."
 
 #: wpf-admin/options-tabs/features.php:46
@@ -1028,9 +1029,9 @@ msgid ""
 "for support, this outputs hidden important information to help us debug your "
 "issue."
 msgstr ""
-"Jeigu turite kokių problemų su wpForo, prašome įgalinti šią opciją prieš "
-"prašant priežiūros pagalbos, tai parodys slaptą reikalingą informaciją, kuri "
-"padės mums išspręsti Jūsų problemą."
+"Jeigu turite problemų su wpForo, prieš prašant priežiūros pagalbos, "
+"įgalinkite šią opciją - tai parodys viešai nerodomą reikalingą informaciją, "
+"kuri mums padės sprendžiant Jūsų problemą."
 
 #: wpf-admin/options-tabs/features.php:49 wpf-includes/wpf-phrases.php:134
 msgid "Help wpForo to grow, show plugin info"
@@ -1043,10 +1044,10 @@ msgid ""
 "icon in forum footer, which will allow your site visitors recognize the name "
 "of forum solution you use."
 msgstr ""
-"Prašome įgalinti šią opciją, kad padėti wpForo įgauti didesnį populiarumą "
+"Prašome įgalinti šią opciją ir taip padėti wpForo įgyti didesnį populiarumą "
 "kaip jūsų padėką už sunkų darbą, kurį mes dirbame jums nemokamai. Ši opcija "
-"prideda mažą ikoną forumo futeryje, kuri leis forumo lankytojams pažinti "
-"naudojamo forumo sprendimo vardą."
+"prideda mažą ikoną forumo poraštėje (footer), kuri leis forumo lankytojams "
+"pažinti naudojamo forumo sprendimo vardą."
 
 #: wpf-admin/options-tabs/features.php:68
 msgid "Thank you!"
@@ -1066,8 +1067,8 @@ msgid ""
 "excluded post/pages will be available. wpForo will look like as a stand-"
 "alone forum."
 msgstr ""
-"Ši opcija išjungs WordPress front-ende, Tik forumo puslapiai ir išskirti "
-"įrašai/puslapiai bus pasiekiami. wpForo atrodys kaip atskiras forumas."
+"Ši opcija išjungs WordPress front-ende. Bus pasiekiami tik forumo puslapiai "
+"ir išskirti įrašai/puslapiai. wpForo atrodys kaip atskiras forumas."
 
 #: wpf-admin/options-tabs/general.php:28
 msgid "Exclude page URLs"
@@ -1139,10 +1140,10 @@ msgid ""
 "are using PO/MO translation files you should change WordPress Language in "
 "Dashboard > Settings admin page to load according translation for wpForo."
 msgstr ""
-"Ši opcija susijusi tik su XML kalbų bylomis. Jūs turėtumėte įkelti XML bylą, "
-"kad gauti naujos kalbos pasirinkimo opciją. Jeigu naudojate PO/MO vertimo "
-"bylas, turėtumėte pakeisti Wordpress Kalbą Baldymo Skydelyje > Nustatymai "
-"administratoriaus puslapyje, kad įkelti atitinkamą wpForo vertimą."
+"Ši opcija susijusi tik su XML kalbų bylomis. Norint gauti naujos kalbos "
+"pasirinkimo opciją, turėtumėte įkelti XML bylą. Jeigu naudojate PO/MO "
+"vertimo bylas, turėtumėte pakeisti Wordpress Kalbą Valdymo Skydelyje > "
+"Nuostatos  administratoriaus puslapyje ir įkelti atitinkamą wpForo vertimą."
 
 #: wpf-admin/options-tabs/general.php:94 wpf-includes/wpf-phrases.php:144
 msgid "Language XML file"
@@ -1193,7 +1194,7 @@ msgstr ""
 "Naudokite šią opciją tik jei nustatėte kitus puslapius autorizacijai. \n"
 "                        wpForo nekeičia savo URL, šios opcijos skirtos kitų "
 "įskiepių pritaikymui. \n"
-"                        Pavyzdžiuim, jei naudojate BuddyPress arba Ultimate "
+"                        Pavyzdžiui, jei naudojate BuddyPress arba Ultimate "
 "Member įskiepį, galite nustatyti šias reikšmes:"
 
 #: wpf-admin/options-tabs/members.php:44 wpf-admin/options-tabs/members.php:50
@@ -1306,7 +1307,7 @@ msgid ""
 "located in wpForo Settings > Features Tab"
 msgstr ""
 "Ši opcija priklauso nuo \"Įgalinti Vartotojų Reitingų Pavadinimus\" tėvinės "
-"opcijos, kurią galima rasti wpForo Nustatymai > Savybės Skiltyje"
+"opcijos, kurią galima rasti wpForo Nuostatos > Savybės Skiltyje"
 
 #: wpf-admin/options-tabs/members.php:140
 msgid "Enable Reputation Badges for selected usergroups"
@@ -1318,7 +1319,7 @@ msgid ""
 "in wpForo Settings > Features Tab"
 msgstr ""
 "Ši opcija priklauso nuo \"Įgalinti Vartotojų Reitingus\" tėvinės opcijos, "
-"kurią galima rasti wpForo Nustatymai > Savybės Skiltyje"
+"kurią galima rasti wpForo Nuostatos > Savybės Skiltyje"
 
 #: wpf-admin/options-tabs/members.php:154
 msgid "Display Usergroup under Post Author Avatar"
@@ -1478,11 +1479,11 @@ msgstr "Dabartinė aktyvi tema"
 
 #: wpf-admin/themes.php:48 wpf-includes/wpf-phrases.php:138
 msgid "Inactive"
-msgstr "Neaktyvus"
+msgstr "Neaktyvi"
 
 #: wpf-admin/themes.php:52 wpf-includes/wpf-phrases.php:143
 msgid "LAYOUTS"
-msgstr "ŠABLONAI"
+msgstr "MAKETAI"
 
 #: wpf-admin/themes.php:68 wpf-includes/wpf-phrases.php:17
 msgid "Activate"
@@ -1513,7 +1514,7 @@ msgstr "Atšaukti Nuustatymus"
 
 #: wpf-admin/themes.php:96 wpf-includes/wpf-phrases.php:201
 msgid "No layout found"
-msgstr "Šablonas nerastas"
+msgstr "Nerasta maketų"
 
 #: wpf-admin/themes.php:107 wpf-includes/wpf-phrases.php:206
 msgid "No theme found"
@@ -1526,7 +1527,7 @@ msgid ""
 "already integrated with wpForo. It'll help to filter posts and protect forum "
 "against spam attacks."
 msgstr ""
-"neįdiegtas! Pažangesnei Brukalo Kontrolėi prašome įdiegti Akismet įskiepį. "
+"neįdiegtas! Pažangesnei Brukalo Kontrolėi prašome įdiegti Akismet įskiepį, "
 "kuris gerai veikia su wpForo Brukalo Kontrolės sistema. Akismet yra jau "
 "integruotas į wpForo. Jis padės filtruoti įrašus ir saugoti forumą nuo "
 "brukalo atakų."
@@ -1597,11 +1598,11 @@ msgstr "įrašai"
 
 #: wpf-admin/tools-tabs/antispam.php:86
 msgid "Min number of posts to be able attach files"
-msgstr "Mažiausias įrašų skaičius. kad prisegti bylas"
+msgstr "Mažiausias įrašų skaičius, kad prisegti bylas"
 
 #: wpf-admin/tools-tabs/antispam.php:90
 msgid "Min number of posts to be able post links"
-msgstr "Mažiausias įrašų skaičius. kad įkelti nuorodas"
+msgstr "Mažiausias įrašų skaičius, kad įkelti nuorodas"
 
 #: wpf-admin/tools-tabs/antispam.php:95
 msgid "Do not allow to attach files with following extensions:"
@@ -2197,7 +2198,7 @@ msgid ""
 "Width' template for wpForo index page to avoid sidebar duplication."
 msgstr ""
 "DĖMĖSIO: Jei ruošiatės į šoninį skydelį įkelti valdiklius, prašome naudoti "
-"\"Pilnas plotis\" wpForo turinio šabloną, kad nedubliuoti šoninio skydelio."
+"\"Pilnas plotis\" wpForo turinio maketą, kad nedubliuoti šoninio skydelio."
 
 #: wpf-includes/functions-template.php:195
 #: wpf-includes/functions-template.php:301
@@ -2233,7 +2234,7 @@ msgstr "Paskelbta"
 
 #: wpf-includes/functions.php:377 wpf-includes/wpf-phrases.php:598
 msgid "Active"
-msgstr "Aktyvu"
+msgstr "Aktyvi"
 
 #: wpf-includes/functions.php:378
 msgid "Banned"
@@ -2522,7 +2523,7 @@ msgstr "Prisegti bylą:"
 
 #: wpf-includes/wpf-phrases.php:44
 msgid "Attachments"
-msgstr "PRiedai"
+msgstr "Priedai"
 
 #: wpf-includes/wpf-phrases.php:45
 msgid "Attachments Size"
@@ -2584,19 +2585,19 @@ msgstr "Išplėstas"
 
 #: wpf-includes/wpf-phrases.php:90
 msgid "Extended Layout - Intro posts"
-msgstr "Išplėstinis Šablonas - Intro įrašai"
+msgstr "Išplėstinis Maketas - Intro įrašai"
 
 #: wpf-includes/wpf-phrases.php:91
 msgid "Extended Layout - Intro topics"
-msgstr "Išplėstinis Šablonas - Intro temos"
+msgstr "Išplėstinis Maketas - Intro temos"
 
 #: wpf-includes/wpf-phrases.php:92
 msgid "Extended Layout - Number of intro posts"
-msgstr "Išplėstinis Šablonas - intro įrašų skaičius"
+msgstr "Išplėstinis Maketas - intro įrašų skaičius"
 
 #: wpf-includes/wpf-phrases.php:93
 msgid "Extended Layout - Number of intro topics"
-msgstr "Išplėstinis Šablonas - intro temų skaičius"
+msgstr "Išplėstinis Maketas - intro temų skaičius"
 
 #: wpf-includes/wpf-phrases.php:94
 msgid "Facebook"
@@ -2869,11 +2870,11 @@ msgstr "Prisijungęs"
 
 #: wpf-includes/wpf-phrases.php:218
 msgid "Oops! The page you requested was not found!"
-msgstr "Ooops. Ieškomo puslapio nepavyko rasti!"
+msgstr "Deja. Ieškomo puslapio nepavyko rasti!"
 
 #: wpf-includes/wpf-phrases.php:219
 msgid "Our newest member"
-msgstr "Mūsų naujausias narys"
+msgstr "Naujausias narys"
 
 #: wpf-includes/wpf-phrases.php:220
 msgid "Page"
@@ -2910,11 +2911,11 @@ msgstr "Įgalino"
 
 #: wpf-includes/wpf-phrases.php:235
 msgid "Q&A Layout - Number of intro topics"
-msgstr "Klausimai&Atsakymai Šablonas - Intro temų skaičius"
+msgstr "\"Klausimai ir Atsakymai\" Maketas - Intro temų skaičius"
 
 #: wpf-includes/wpf-phrases.php:236
 msgid "Q&A layout - Intro topics"
-msgstr "Klausimai&Atsakymai Šablonas - Intro temos"
+msgstr "\"Klausimai ir Atsakymai\" Maketas - Intro temos"
 
 #: wpf-includes/wpf-phrases.php:237
 msgid "Question Comments"
@@ -3052,8 +3053,8 @@ msgstr "Nustatyti Lipnią Temą"
 msgid ""
 "Set this option value 0 if you want to show all posts under topic intro area."
 msgstr ""
-"Nustatykite reikšmę 0, jei norite rodyti visus įrašus esančius Temos Intro "
-"plote."
+"Norėdami rodyti visus įrašus esančius Temos Intro plote, nustatykite reikšmę "
+"0."
 
 #: wpf-includes/wpf-phrases.php:292
 msgid "Shop Account"
@@ -3114,8 +3115,8 @@ msgid ""
 "system. The \"Extended"
 msgstr ""
 "Dėkojame, kad naudojatės wpForo! wpForo yra profesionali WordPress diskusijų "
-"knyga ir vienintelė forumo programinė įranga su multi-which comes with Multi-"
-"maketų šablonų sistema. \"Išplėstinis"
+"knyga ir vienintelė forumo programinė įranga, sukurta veikti su Multi-maketų "
+"sistema. \"Išplėstinis"
 
 #: wpf-includes/wpf-phrases.php:321
 msgid ""
@@ -3256,7 +3257,7 @@ msgstr "Jūs"
 #: wpf-includes/wpf-phrases.php:369
 #, php-format
 msgid "You can go to %s page or Search here"
-msgstr "Galite eiti į %s puspalį arba Ieškoti čia"
+msgstr "Galite eiti į %s puslapį arba Ieškoti čia"
 
 #: wpf-includes/wpf-phrases.php:371
 msgid "Your Answer"
@@ -3784,7 +3785,7 @@ msgstr "Sveiki atvykę į mūsų Bendruomenę!"
 
 #: wpf-includes/wpf-phrases.php:516
 msgid "Wrong post data"
-msgstr "Neteisingi 5ra6o duomenys"
+msgstr "Neteisingi įrašo duomenys"
 
 #: wpf-includes/wpf-phrases.php:517
 msgid "You are already voted this post"
@@ -4574,62 +4575,61 @@ msgstr ""
 
 #: wpf-themes/classic/functions.php:39
 msgid "Extended Layout - Recent topics"
-msgstr "Išplėstinis Šablonas - Intro temos"
+msgstr "Išplėstinis Maketas - Intro temos"
 
 #: wpf-themes/classic/functions.php:48
 msgid "Extended Layout - Number of Recent topics"
-msgstr "Išplėstinis Šablonas - Naujausių Temų Skaičius"
+msgstr "Išplėstinis Maketas - Naujausių Temų Skaičius"
 
 #: wpf-themes/classic/functions.php:55
 msgid "Extended Layout - Recent topic length"
-msgstr "Išplėstinis Šablonas - Naujausių temų ilgis"
+msgstr "Išplėstinis Maketas - Naujausių temų ilgis"
 
 #: wpf-themes/classic/functions.php:56 wpf-themes/classic/functions.php:86
 msgid ""
 "Set this option value 0 if you want to show the whole title in recent topic "
 "area."
 msgstr ""
-"Nustatykite reikšmę 0 jeigu norite rodyti visą pavadinimą šviežiausios temos "
-"vietoje."
+"Norėdami rodyti visą pavadinimą naujausios temos vietoje, nustatykite "
+"reikšmę 0."
 
 #: wpf-themes/classic/functions.php:69
 msgid "Q&A layout - Recent topics"
-msgstr "Klausimai&Atsakymai šablonas - Naujausios temos"
+msgstr "\"Klausimai ir Atsakymai\" maketas - Naujausios temos"
 
 #: wpf-themes/classic/functions.php:78
 msgid "Q&A Layout - Number of Recent topics"
-msgstr "Klausimai&Atsakymai Šablonas - Naujausių temų skaičius"
+msgstr "\"Klausimai ir Atsakymai\" Maketas - Naujausių temų skaičius"
 
 #: wpf-themes/classic/functions.php:85
 msgid "Q&A Layout - Recent topic length"
-msgstr "Išplėstinis Šablonas - Naujausios temos ilgis"
+msgstr "Išplėstinis Maketas - Naujausios temos ilgis"
 
 #: wpf-themes/classic/functions.php:107
 msgid "Extended Layout - Recent posts"
-msgstr "Išplėstinis Šablonas - Naujausi įrašai"
+msgstr "Išplėstinis Maketas - Naujausi įrašai"
 
 #: wpf-themes/classic/functions.php:117
 msgid "Extended Layout - Number of Recent posts"
-msgstr "Išplėstinis Šablonas - Naujausių Įrašų Skaičius"
+msgstr "Išplėstinis Maketas - Naujausių Įrašų Skaičius"
 
 #: wpf-themes/classic/functions.php:118
 msgid ""
 "Set this option value 0 if you want to show all posts in recent posts area."
 msgstr ""
-"Nustatykite reikšmę 0 jeigu norite rodyti visus įrašus šviežiausio įrašo "
-"vietoje."
+"Norėdami rodyti visus įrašus naujausio įrašo vietoje, nustatykite reikšmę 0."
 
 #: wpf-themes/classic/functions.php:126
 msgid "Extended Layout - Recent post length"
-msgstr "Išplėstinis Šablonas - Naujausių įrašų ilgis"
+msgstr "Išplėstinis Maketas - Naujausių įrašų ilgis"
 
 #: wpf-themes/classic/functions.php:127
 msgid ""
 "Set this option value 0 if you want to show the whole post content in recent "
 "post area."
 msgstr ""
-"Nustatykite reikšmę 0 jeigu norite rodyti visą įrašo turinė šviežiausios "
-"įrašo vietoje."
+"Norėdami rodyti visą įrašo turinį naujausio įrašo vietoje, nustatykite "
+"reikšmę 0."
 
 #: wpforo.php:177
 msgid "Discussion Board"
@@ -4716,7 +4716,7 @@ msgid ""
 msgstr ""
 "WordPress Forumo įskiepis. wpForo yra pilnavertis sprendimas jūsų "
 "bendruomenei. Kartu pateikiama keletas šiuolaikiškų forumo atvaizdavimo "
-"šablonų."
+"maketų."
 
 #. Author of the plugin/theme
 msgid "gVectors Team (A. Chakhoyan, R. Hovhannisyan)"
